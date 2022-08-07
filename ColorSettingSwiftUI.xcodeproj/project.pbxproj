@@ -11,6 +11,10 @@
 		252917A8289D8AF3006ABF78 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252917A7289D8AF3006ABF78 /* ContentView.swift */; };
 		252917AA289D8AF4006ABF78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252917A9289D8AF4006ABF78 /* Assets.xcassets */; };
 		252917AD289D8AF4006ABF78 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 252917AC289D8AF4006ABF78 /* Preview Assets.xcassets */; };
+		252917B4289D8CE2006ABF78 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252917B3289D8CE2006ABF78 /* CustomView.swift */; };
+		252917B8289D9EBD006ABF78 /* TextFieldForColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252917B7289D9EBD006ABF78 /* TextFieldForColor.swift */; };
+		252917BA289D9F32006ABF78 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252917B9289D9F32006ABF78 /* SliderView.swift */; };
+		252917BC289DB009006ABF78 /* HideKeyboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252917BB289DB009006ABF78 /* HideKeyboardModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		252917A7289D8AF3006ABF78 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		252917A9289D8AF4006ABF78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		252917AC289D8AF4006ABF78 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		252917B3289D8CE2006ABF78 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		252917B7289D9EBD006ABF78 /* TextFieldForColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldForColor.swift; sourceTree = "<group>"; };
+		252917B9289D9F32006ABF78 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		252917BB289DB009006ABF78 /* HideKeyboardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				252917A5289D8AF3006ABF78 /* ColorSettingSwiftUIApp.swift */,
 				252917A7289D8AF3006ABF78 /* ContentView.swift */,
+				252917B3289D8CE2006ABF78 /* CustomView.swift */,
+				252917B9289D9F32006ABF78 /* SliderView.swift */,
+				252917B7289D9EBD006ABF78 /* TextFieldForColor.swift */,
+				252917BB289DB009006ABF78 /* HideKeyboardModifier.swift */,
 				252917A9289D8AF4006ABF78 /* Assets.xcassets */,
 				252917AB289D8AF4006ABF78 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				252917B4289D8CE2006ABF78 /* CustomView.swift in Sources */,
+				252917BC289DB009006ABF78 /* HideKeyboardModifier.swift in Sources */,
+				252917B8289D9EBD006ABF78 /* TextFieldForColor.swift in Sources */,
 				252917A8289D8AF3006ABF78 /* ContentView.swift in Sources */,
 				252917A6289D8AF3006ABF78 /* ColorSettingSwiftUIApp.swift in Sources */,
+				252917BA289D9F32006ABF78 /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
