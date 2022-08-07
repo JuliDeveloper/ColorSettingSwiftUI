@@ -18,7 +18,6 @@ struct TextFieldForColor: View {
             .padding()
             .background(Color.white)
             .cornerRadius(10)
-
     }
 }
 

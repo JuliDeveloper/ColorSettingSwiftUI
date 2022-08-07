@@ -40,7 +40,6 @@ struct ContentView: View {
                 Spacer()
             }
             .padding()
-
         }
         .hideKeyboard()
     }
