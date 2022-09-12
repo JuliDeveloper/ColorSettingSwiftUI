@@ -15,6 +15,7 @@
 		252917B8289D9EBD006ABF78 /* TextFieldForColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252917B7289D9EBD006ABF78 /* TextFieldForColor.swift */; };
 		252917BA289D9F32006ABF78 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252917B9289D9F32006ABF78 /* SliderView.swift */; };
 		252917BC289DB009006ABF78 /* HideKeyboardModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252917BB289DB009006ABF78 /* HideKeyboardModifier.swift */; };
+		2554C08E28CF565E00703D77 /* ColorValueTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2554C08D28CF565E00703D77 /* ColorValueTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		252917B7289D9EBD006ABF78 /* TextFieldForColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldForColor.swift; sourceTree = "<group>"; };
 		252917B9289D9F32006ABF78 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 		252917BB289DB009006ABF78 /* HideKeyboardModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboardModifier.swift; sourceTree = "<group>"; };
+		2554C08D28CF565E00703D77 /* ColorValueTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorValueTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				252917B3289D8CE2006ABF78 /* CustomView.swift */,
 				252917B9289D9F32006ABF78 /* SliderView.swift */,
 				252917B7289D9EBD006ABF78 /* TextFieldForColor.swift */,
+				2554C08D28CF565E00703D77 /* ColorValueTextView.swift */,
 				252917BB289DB009006ABF78 /* HideKeyboardModifier.swift */,
 				252917A9289D8AF4006ABF78 /* Assets.xcassets */,
 				252917AB289D8AF4006ABF78 /* Preview Content */,
@@ -153,6 +156,7 @@
 				252917BC289DB009006ABF78 /* HideKeyboardModifier.swift in Sources */,
 				252917B8289D9EBD006ABF78 /* TextFieldForColor.swift in Sources */,
 				252917A8289D8AF3006ABF78 /* ContentView.swift in Sources */,
+				2554C08E28CF565E00703D77 /* ColorValueTextView.swift in Sources */,
 				252917A6289D8AF3006ABF78 /* ColorSettingSwiftUIApp.swift in Sources */,
 				252917BA289D9F32006ABF78 /* SliderView.swift in Sources */,
 			);
