@@ -12,7 +12,7 @@ struct ContentView: View {
     @State private var numberOfRed = Double.random(in: 0...255)
     @State private var numberOfGreen = Double.random(in: 0...255)
     @State private var numberOfBlue = Double.random(in: 0...255)
-
+    
     private var backgroundColor = UIColor(red: 210/255, green: 216/255,
                                           blue: 255/255, alpha: 1)
     
@@ -20,19 +20,17 @@ struct ContentView: View {
         ZStack {
             Color(backgroundColor)
                 .ignoresSafeArea()
+            
             VStack(spacing: 20) {
                 CustomView(color: Color(red: numberOfRed/255,
                                         green: numberOfGreen/255,
                                         blue: numberOfBlue/255))
                 VStack {
-                    SliderView(numberOfColor: $numberOfRed,
-                               alertPresented: $alertPresented,
+                    SliderView(sliderValue: $numberOfRed,
                                color: .red)
-                    SliderView(numberOfColor: $numberOfGreen,
-                               alertPresented: $alertPresented,
+                    SliderView(sliderValue: $numberOfGreen,
                                color: .green)
-                    SliderView(numberOfColor: $numberOfBlue,
-                               alertPresented: $alertPresented,
+                    SliderView(sliderValue: $numberOfBlue,
                                color: .blue)
                 }
                 Spacer()
