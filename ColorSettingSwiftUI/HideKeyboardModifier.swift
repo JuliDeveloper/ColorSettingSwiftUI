@@ -10,7 +10,6 @@ import SwiftUI
 struct HideKeyboardModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .keyboardType(.asciiCapableNumberPad)
             .onTapGesture {
                 endEditing()
             }

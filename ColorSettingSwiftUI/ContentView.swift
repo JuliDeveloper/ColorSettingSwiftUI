@@ -12,8 +12,6 @@ struct ContentView: View {
     @State private var numberOfRed = Double.random(in: 0...255)
     @State private var numberOfGreen = Double.random(in: 0...255)
     @State private var numberOfBlue = Double.random(in: 0...255)
-    
-    @State private var alertPresented = false
 
     private var backgroundColor = UIColor(red: 210/255, green: 216/255,
                                           blue: 255/255, alpha: 1)

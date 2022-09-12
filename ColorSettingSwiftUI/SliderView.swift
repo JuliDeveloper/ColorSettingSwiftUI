@@ -21,9 +21,6 @@ struct SliderView: View {
             Slider(value: $numberOfColor, in: 0...255, step: 1)
                 .tint(color)
             TextFieldForColor(numberOfColor: $numberOfColor)
-                .alert("Wrong Format", isPresented: $alertPresented, actions: {}) {
-                    Text("Enter from 0 to 255")
-                }
                 .onChange(of: numberOfColor) { newValue in
                     if newValue > 255 {
                         numberOfColor = 0
